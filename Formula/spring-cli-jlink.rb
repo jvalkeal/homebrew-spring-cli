@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.8.0 at 2023-09-28T09:39:07.984492183+01:00
+# Generated with JReleaser 1.9.0-SNAPSHOT at 2023-10-11T10:49:42.652253913Z
 class SpringCliJlink < Formula
   desc "Spring Cli"
   homepage "https://github.com/spring-projects-experimental/spring-cli"
@@ -7,7 +7,7 @@ class SpringCliJlink < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.7.1/spring-cli-jlink-0.7.1-linux.x86_64.zip"
-    sha256 "6e1a7a7038c95a392ebdc3b24fdb43247e73ba64451516dd51d3e256bd988b40"
+    sha256 "7025ba346e88bc87c9d646c63ee6138fc65510834792c83a68adf08c5a1e1266"
   end
 
 
