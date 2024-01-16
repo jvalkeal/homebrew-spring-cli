@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.11.0-SNAPSHOT at 2024-01-16T10:10:31.816425698Z
+# Generated with JReleaser 1.11.0-SNAPSHOT at 2024-01-16T12:57:39.99417186Z
 class SpringCli < Formula
   desc "Spring Cli"
   homepage "https://github.com/spring-projects-experimental/spring-cli"
@@ -7,15 +7,15 @@ class SpringCli < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.8.1/spring-cli-standalone-0.8.1-linux.x86_64.zip"
-    sha256 "8a2cab5e05eb36670bc1e3c92f699902d9209f67a4f447a167e4ad19140fbaf8"
+    sha256 "0dd4c1813352ab2cc33a94ccaff3b9e7b86c1413b7743a7aa768207a469b2f5e"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.8.1/spring-cli-standalone-0.8.1-osx.aarch64.zip"
-    sha256 "4b1ace34fb7b3fac4d14e95d2d0ba3f1b43fe6da69004f7d0382a5f4faff2d00"
+    sha256 "367a84a70fc0794d3700680e8a98b1f02975c19789580e1491043b44a99ee728"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/jvalkeal/spring-cli/releases/download/v0.8.1/spring-cli-standalone-0.8.1-osx.x86_64.zip"
-    sha256 "103fb7c8521614be3a2149ec87f659390cbc5a900e487e74a18f045a4148652a"
+    sha256 "6b49229cb9aeced187b9d4d5a34ef30e48cb34b3e0007ab3ba74e93740cbf26a"
   end
 
 
